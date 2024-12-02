@@ -40,7 +40,7 @@ Este modelo oferece uma ampla gama de aplicações, incluindo:
 
 ## **Demonstração Online**
 Experimente o **Fish Agent V0.1 3B** diretamente online:  
-👉 [Fish Audio](https://speech.fish.audio/)
+👉 [Fish Audio](https://fish.audio/)
 
 ---
 
@@ -71,7 +71,7 @@ Este projeto está licenciado sob a **BY-CC-NC-SA-4.0**, permitindo uso não com
 Se este projeto for útil para você, por favor cite:
 ```bibtex
 @misc{fish-agent-0.1,
-    author = {Shijia Liao and Tianyu Li e Rcell e outros},
+    author = {Shijia Liao e Tianyu Li e Rcell e outros},
     title = {Fish Agent V0.1 3B},
     year = {2024},
     publisher = {GitHub},
