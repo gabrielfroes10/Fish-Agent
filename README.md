@@ -1,8 +1,40 @@
-# Fish-Agent
 # **Fish Agent V0.1 3B**
 
 ## **Descrição**
-O **Fish Agent V0.1 3B** é um modelo avançado de inteligência artificial projetado para tarefas de **Voz para Voz** (Voice-to-Voice) e **Texto para Fala** (Text-to-Speech). Ele oferece suporte multilingue, alta precisão e recursos avançados como clonagem de voz em poucos segundos.
+O **Fish Agent V0.1 3B** é um modelo de inteligência artificial avançado projetado para tarefas de **Voz para Voz** (Voice-to-Voice) e **Texto para Fala** (Text-to-Speech). Ele utiliza uma arquitetura inovadora que elimina a necessidade de tokens semânticos, proporcionando desempenho superior em aplicações de áudio.
+
+---
+
+## **Como é ou será usado?**
+Este modelo oferece uma ampla gama de aplicações, incluindo:
+- **Clonagem de voz personalizada**: Criação de perfis vocais únicos a partir de amostras curtas.
+- **Tradução e síntese de voz multilíngue**: Ideal para conteúdos globais.
+- **Interface humano-máquina**: Uso em assistentes virtuais e dispositivos inteligentes.
+- **Produção de mídia**: Geração de audiolivros, narrações e outros conteúdos.
+- **Monitoramento de áudio ambiental**: Aplicações em segurança e pesquisa.
+
+---
+
+## **Principais Funcionalidades**
+- **Clonagem de Voz Zero-shot e Few-shot**: Gera saídas de TTS de alta qualidade com uma amostra vocal curta (10-30 segundos).  
+- **Multilíngue**: Suporte a idiomas como:
+  - Inglês
+  - Chinês
+  - Francês
+  - Alemão
+  - Japonês
+  - Coreano
+  - Árabe
+  - Espanhol
+- **Alta Precisão**:
+  - CER (Taxa de Erro de Caracteres): ~2%.
+  - WER (Taxa de Erro de Palavras): ~2% em textos em inglês.
+- **Velocidade e Eficiência**: Aceleração **fish-tech** para processamento rápido em GPUs.
+- **Interfaces Simples**:
+  - **WebUI**: Interface de navegador (Gradio).
+  - **GUI Local**: Compatível com Windows, Linux e macOS.
+- **Configuração Amigável**:
+  - Suporte a Docker e WSL2 para fácil implantação.
 
 ---
 
@@ -21,7 +53,7 @@ O **Fish Agent V0.1 3B** é um modelo avançado de inteligência artificial proj
    - **API**: Implante um servidor para integração com outros sistemas.
 
 4. **Documentação Completa**:
-   Acesse a documentação detalhada, incluindo os guias de instalação e exemplos de uso, em:  
+   Consulte a documentação detalhada, incluindo guias de instalação e exemplos de uso, em:  
    [Documentação Fish Speech](https://speech.fish.audio/pt/)
 
 ---
