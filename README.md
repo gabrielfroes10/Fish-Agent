@@ -38,6 +38,12 @@ Este modelo oferece uma ampla gama de aplicações, incluindo:
 
 ---
 
+## **Demonstração Online**
+Experimente o **Fish Agent V0.1 3B** diretamente online:  
+👉 [Fish Audio](https://speech.fish.audio/)
+
+---
+
 ## **Como Rodar**
 ### Passos Rápidos:
 1. **Requisitos**:
