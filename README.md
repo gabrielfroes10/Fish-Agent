@@ -3,6 +3,8 @@
 ## **Descrição**
 O **Fish Agent V0.1 3B** é um modelo de inteligência artificial avançado projetado para tarefas de **Voz para Voz** (Voice-to-Voice) e **Texto para Fala** (Text-to-Speech). Ele utiliza uma arquitetura inovadora que elimina a necessidade de tokens semânticos, proporcionando desempenho superior em aplicações de áudio.
 
+Além disso, o modelo se destaca como um sistema de conversão de texto em fala (TTS) de última geração, treinado em um extenso conjunto de dados de **700.000 horas de conteúdo de áudio multilíngue**.
+
 ---
 
 ## **Como é ou será usado?**
@@ -17,15 +19,15 @@ Este modelo oferece uma ampla gama de aplicações, incluindo:
 
 ## **Principais Funcionalidades**
 - **Clonagem de Voz Zero-shot e Few-shot**: Gera saídas de TTS de alta qualidade com uma amostra vocal curta (10-30 segundos).  
-- **Multilíngue**: Suporte a idiomas como:
-  - Inglês
-  - Chinês
-  - Francês
-  - Alemão
-  - Japonês
-  - Coreano
-  - Árabe
-  - Espanhol
+- **Multilíngue**: O modelo suporta os seguintes idiomas e tamanhos de conjuntos de dados de treinamento:
+  - **Inglês (en)**: ~300.000 horas
+  - **Chinês (zh)**: ~300.000 horas
+  - **Alemão (de)**: ~20.000 horas
+  - **Japonês (ja)**: ~20.000 horas
+  - **Francês (fr)**: ~20.000 horas
+  - **Espanhol (es)**: ~20.000 horas
+  - **Coreano (ko)**: ~20.000 horas
+  - **Árabe (ar)**: ~20.000 horas
 - **Alta Precisão**:
   - CER (Taxa de Erro de Caracteres): ~2%.
   - WER (Taxa de Erro de Palavras): ~2% em textos em inglês.
