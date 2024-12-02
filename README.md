@@ -2,35 +2,41 @@
 # **Fish Agent V0.1 3B**
 
 ## **Descrição**
-O **Fish Agent V0.1 3B** é um modelo avançado de inteligência artificial, especializado em **Voz para Voz** (Voice-to-Voice) e **Texto para Fala** (Text-to-Speech). Sua arquitetura inovadora elimina a necessidade de tokens semânticos, proporcionando um desempenho superior em aplicações de áudio.
-
-### **Principais Funcionalidades**
-- **Clonagem de Voz Zero-shot/Few-shot**: Gera TTS de alta qualidade a partir de amostras vocais curtas (10-30 segundos).
-- **Multilíngue**: Suporta inglês, chinês, japonês, coreano, francês, alemão, árabe e espanhol.
-- **Alta Precisão**: CER (Taxa de Erro de Caracteres) e WER (Taxa de Erro de Palavras) abaixo de 2%.
-- **Aceleração fish-tech**: Processamento rápido em GPUs.
-- **Interfaces de Fácil Uso**:
-  - WebUI (Gradio).
-  - GUI local (PyQt6).
-- **Implantação Simplificada**: Suporte nativo para Docker, Linux e Windows (incluindo WSL2).
+O **Fish Agent V0.1 3B** é um modelo avançado de inteligência artificial projetado para tarefas de **Voz para Voz** (Voice-to-Voice) e **Texto para Fala** (Text-to-Speech). Ele oferece suporte multilingue, alta precisão e recursos avançados como clonagem de voz em poucos segundos.
 
 ---
 
-## **Requisitos**
-### **Hardware**
-- **GPU**:
-  - 4 GB VRAM para inferência.
-  - 8 GB VRAM para ajuste fino.
+## **Como Rodar**
+### Passos Rápidos:
+1. **Requisitos**:
+   - **GPU**: 4GB (inferência) ou 8GB (ajuste fino).
+   - **Sistema Operacional**: Linux ou Windows.
 
-### **Sistemas Operacionais Suportados**
-- Linux
-- Windows (com WSL2 ou Docker para uso avançado)
+2. **Configuração Básica**:
+   - Configure o ambiente Python com `conda` ou `virtualenv`.
+   - Instale as dependências principais, incluindo PyTorch e Fish-Speech.
+
+3. **Opções de Execução**:
+   - **WebUI**: Use a interface gráfica baseada em navegador para inferência.
+   - **API**: Implante um servidor para integração com outros sistemas.
+
+4. **Documentação Completa**:
+   Acesse a documentação detalhada, incluindo os guias de instalação e exemplos de uso, em:  
+   [Documentação Fish Speech](https://speech.fish.audio/pt/)
 
 ---
 
-## **Configuração**
-### **Windows**
-#### **Passo 1: Criar Ambiente Virtual**
-```bash
-conda create -n fish-speech python=3.10
-conda activate fish-speech
+## **Licença**
+Este projeto está licenciado sob a **BY-CC-NC-SA-4.0**, permitindo uso não comercial com atribuição apropriada.
+
+## **Citação**
+Se este projeto for útil para você, por favor cite:
+```bibtex
+@misc{fish-agent-0.1,
+    author = {Shijia Liao and Tianyu Li e Rcell e outros},
+    title = {Fish Agent V0.1 3B},
+    year = {2024},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/fishaudio/fish-speech}}
+}
